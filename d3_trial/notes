@@ -1,0 +1,53 @@
+<!doctype ht.>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v6.js"></script>
+        <script src="notes.js"></script>
+        <!-- <script src = "trial.js"> </script> -->
+        <title>Notes</title>
+      </head>
+   
+<!--
+       <style> 
+           *{
+               margin: 0;
+               padding: 0;
+               font-family: Sans;
+           }
+        .chartMenu{
+            width:
+            height:
+            background: ;
+            color: ;
+        }
+        .chartMenu p{
+            padding:
+        font-family:
+        }
+
+        .chartCard {
+            width:
+            height:
+            background: ;
+            color: ;
+        }
+
+        </style> --> 
+    </head>
+    <body>
+        <div class="BarChart1">
+            <p> Simple Barchat showcasing Covid-19 Tested rates</p>      
+        </div>
+
+        <div class="chartCard">
+            <div class="chartBox">    
+                <canvas id="barPlot"></canvas>
+                <button onclick="fetchData()">Load Data</button>
+            </div>
+        </div>
+    </body>
+</html>
